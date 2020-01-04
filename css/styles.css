@@ -36,6 +36,7 @@ body{
 .btn-col{
   padding: 0% 1%;
 }
+
 .navbar{
 margin-bottom: 3%;
 }
@@ -53,6 +54,9 @@ margin-bottom: 3%;
 }
 .feature-container{
   text-align: center;
+}
+.download{
+  margin-left: 10px;
 }
 #features{
   padding-top: 8%;
@@ -135,6 +139,11 @@ h2{
   margin-top: 5%;
 }
 @media(max-width:990px){
+  .btn-col-1{
+
+      display: block;
+      margin-left: auto;
+  }
   .phone{
 
 
@@ -167,7 +176,8 @@ h2{
  }
 #cta{
   background-color: #ff4c68;
-
+  padding-top:5%;
+  padding-bottom: 5%;
 }
 .cta-h3{
   line-height: 1.5;
@@ -189,7 +199,7 @@ h2{
 }
 .pf{
   text-align: center;
-  padding:2% 15% 15%;
+  padding:2% 15% 2%;
 }
 .icons{
   padding-top:3%;
